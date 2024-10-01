@@ -1,0 +1,330 @@
+:root {
+  --header: #fda8df;
+  --small-header-colour: #783a77;
+  --big-header-colour: #dd429d;
+  --third-colour: #008080;
+  --socials: #877bb4;
+  --awareness: #a167a0;
+  --box-colour: #d46ba9;
+  --body-colour: #2e9797;
+  --blog-one: #945393;
+  --blog-two: #4da6a6;
+  --blog-three: #d56daa;
+  --blog-review: #f9f4f5;
+  --text-colour: #fdfafa;
+  --text-colourbr: #613c60;
+  --career-box: #5782ac;
+}
+.container {
+  max-width: 960px;
+  border: 1px solid var(--third-colour);
+  padding: 0;
+  letter-spacing: 0.1rem;
+}
+.content-box {
+  border-radius: 20px;
+  color: var(--text-colour);
+  margin: 10px;
+  padding: 15px 25px;
+}
+.newsletter {
+  padding: 20px;
+  margin: 20px;
+}
+header,
+footer {
+  background-color: var(--header);
+  width: 100%;
+}
+header {
+  height: 175px;
+}
+footer {
+  height: 80px;
+}
+footer a {
+  padding: 0 15px;
+  color: var(--text-colour);
+}
+header img {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+header .date {
+  color: var(--text-colour);
+  margin: 0;
+  padding: 0 15px 20px;
+  text-align: right;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  line-height: normal;
+}
+h1 .welcome {
+  font-size: 20px;
+  color: var(--small-header-colour);
+  padding: 0;
+  margin: 0;
+}
+h1 .month {
+  font-size: 80px;
+  color: var(--third-colour);
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+p,
+ul,
+a {
+  font-family: Tahoma;
+}
+a {
+  color: var(--text-colour);
+}
+hr {
+  color: var(--third-colour);
+}
+.from {
+  font-size: 40px;
+  color: var(--small-header-colour);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.quote {
+  background-color: var(--box-colour);
+  height: 190px;
+  margin: auto;
+}
+.citation {
+  color: var(--text-colour);
+  text-align: center;
+}
+.cite {
+  font-style: italic;
+}
+
+.newsletter-codirector {
+  height: 170px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.co-director {
+  text-align: center;
+  font-weight: bold;
+  color: var(--third-colour);
+}
+.co-director-two p {
+  color: var(--big-header-colour);
+}
+.hello {
+  color: var(--big-header-colour);
+}
+.message {
+  color: var(--small-header-colour);
+  font-weight: bold;
+}
+.socialmedia {
+  color: var(--third-colour);
+  font-weight: bold;
+}
+.socialmedia h2 {
+  text-align: left;
+}
+.socialmedia ul {
+  margin-top: 0;
+  padding-left: 100px;
+}
+.socialmedia li {
+  list-style: none;
+  margin: 30px 0;
+  font-size: larger;
+}
+.socialmedia i {
+  padding-right: 20px;
+}
+.socialmedia img {
+  height: 300px;
+}
+
+.events-recap {
+  background-color: #3e90b9;
+}
+.new-volunteers li {
+  list-style: none;
+}
+.upcoming-events {
+  background-color: #4a67a4;
+}
+.tour {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+.ribbon {
+  padding: 15px;
+  height: 50px;
+  background: #ecebef64;
+
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+
+  font-style: italic;
+  font-size: 24px;
+  font-family: dancing script;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+
+  margin: 25px auto;
+}
+
+.socials img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+.socials {
+  background-color: #d265a6;
+}
+.socials-two {
+  background-color: #7879ae;
+}
+.socials-two img {
+  display: block;
+  margin: 0 auto;
+}
+.awareness {
+  background-color: #5983ad;
+}
+.section-one {
+  background-color: #db86b8;
+}
+.section-two {
+  background-color: #c29cc0;
+}
+.section-three-first {
+  background-color: #efc4dd;
+}
+.section-three-second {
+  background-color: #7cb4d2;
+}
+.section-four {
+  background-color: #db86b8;
+}
+.blog p {
+  text-align: center;
+}
+.blog-review {
+  background-color: var(--blog-review);
+}
+.blog-review h2 {
+  color: var(--third-colour);
+}
+
+.blog-review p,
+.blog-review a,
+.blog-review h3,
+.blog-review ul {
+  color: #613c61;
+  font-weight: 500;
+  text-align: center;
+}
+.blog-review p {
+  padding: 10px;
+}
+
+.paragraph {
+  text-align: center;
+}
+.reality {
+  background-color: var(--blog-two);
+}
+.research {
+  background-color: var(--blog-three);
+}
+
+.review,
+.blog {
+  background-color: var(--blog-one);
+}
+
+.contact-blog,
+.contact-blog a {
+  color: var(--small-header-colour);
+}
+.contact-blog {
+  text-align: center;
+}
+
+.events-recap a,
+.upcoming-events a,
+.research a,
+.paragraph a,
+.emailus a,
+.insta-topic a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 570px) {
+  .container {
+    letter-spacing: normal;
+  }
+  .quote {
+    height: 275px;
+  }
+  h1 .month {
+    font-size: 40px;
+  }
+  h1 .welcome {
+    font-size: 15px;
+  }
+  header .date {
+    font-size: 17px;
+  }
+  .from {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  p .cite,
+  p .author {
+    font-size: 13px;
+  }
+
+  .skills {
+    height: 305px;
+  }
+  .upcoming {
+    width: 300px;
+    height: 300px;
+  }
+  .socialmedia ul {
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  .socialmedia img {
+    display: block;
+    margin: auto;
+  }
+  .content-box {
+    width: 100%;
+    margin: 15px AUTO;
+  }
+}
