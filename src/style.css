@@ -159,31 +159,8 @@ hr {
 .upcoming-events {
   background-color: #e570b5;
 }
-.tour {
-  display: block;
-  margin: 0 auto;
-  width: 400px;
-  height: 400px;
-}
-.ribbon {
-  padding: 15px;
-  height: 50px;
-  background: #ecebef64;
-
-  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
-
-  font-style: italic;
-  font-size: 24px;
-  font-family: dancing script;
-  color: #fff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 300px;
-
-  margin: 25px auto;
+.socials li {
+  list-style: none;
 }
 
 .socials img {
@@ -193,15 +170,16 @@ hr {
   margin: auto;
 }
 .socials {
-  background-color: #d265a6;
+  background-color: #8e84b9;
 }
 .socials-two {
   background-color: #7879ae;
 }
-.socials-two img {
-  display: block;
-  margin: 0 auto;
+.pain {
+  height: 240px;
+  width: 420px;
 }
+
 .awareness {
   background-color: #5983ad;
 }
@@ -267,6 +245,7 @@ hr {
 
 .events-recap a,
 .upcoming-events a,
+.socials a,
 .research a,
 .paragraph a,
 .emailus a,
