@@ -153,11 +153,9 @@ hr {
 }
 
 .events-recap {
-  background-color: #3e90b9;
+  background-color: #3e9f9f;
 }
-.new-volunteers li {
-  list-style: none;
-}
+
 .upcoming-events {
   background-color: #4a67a4;
 }
