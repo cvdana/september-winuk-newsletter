@@ -173,15 +173,22 @@ hr {
   background-color: #8e84b9;
 }
 .socials-two {
-  background-color: #7879ae;
+  background-color: #9d629d;
 }
 .pain {
   height: 240px;
   width: 420px;
 }
-
-.awareness {
-  background-color: #5983ad;
+.socials-three {
+  background-color: #6554a0;
+}
+.award {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.PTYL {
+  background-color: #4996bc;
 }
 .section-one {
   background-color: #db86b8;
@@ -246,6 +253,7 @@ hr {
 .events-recap a,
 .upcoming-events a,
 .socials a,
+.PTYL a,
 .research a,
 .paragraph a,
 .emailus a,
