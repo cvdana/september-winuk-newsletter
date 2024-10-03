@@ -196,6 +196,9 @@ hr {
 .section-two {
   background-color: #c29cc0;
 }
+.section-two-two {
+  background-color: #fca6dd;
+}
 .section-three-first {
   background-color: #efc4dd;
 }
@@ -226,7 +229,12 @@ hr {
 .blog-review p {
   padding: 10px;
 }
-
+.logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
 .paragraph {
   text-align: center;
 }
